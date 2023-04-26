@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+}
+.figma-logo {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.part {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.part-1 {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.part-2 {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.part-3 {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.part-4 {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.part-5 {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.orange {
+  background-color: #fb7266;
+}
+.purple {
+  background-color: #a061fa;
+}
+.blue {
+  background-color: #2dbdf9;
+}
+.green {
+  background-color: #00ce84;
+}
